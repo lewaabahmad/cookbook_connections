@@ -2,10 +2,12 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import logo from '../images/cclogo.jpg'
+import Img from "gatsby-image"
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -24,7 +26,9 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          <div style={{ width: '100px', margin: '0 auto' }}>
+            <img src={logo} alt="Logo" />
+          </div>
         </Link>
       </h1>
     </div>
