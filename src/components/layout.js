@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 // import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Nav from "./nav"
 import "./layout.css"
 
 const Layout = ({ children }) => (
@@ -35,10 +36,11 @@ const Layout = ({ children }) => (
       }}
     >
       <Header />
+      <Nav />
       <main>{children}</main>
-      <footer>
+      <footer className='text-center'>
         © {new Date().getFullYear()}, Cookbook Connections - Built with ZAPI
-  </footer>
+      </footer>
     </div>
   </div>
 )
