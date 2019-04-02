@@ -30,10 +30,10 @@ const Layout = ({ children }) => (
   <div className='container'>
     <Header />
     <Nav />
-    <main>{children}</main>
-    <footer className='text-center'>
-      © {new Date().getFullYear()}, Cookbook Connections - Built with ZAPI
-    </footer>
+    <main>
+      {children}
+      <h6 className='text-center pt-5 pb-2 mb-0'>© {new Date().getFullYear()}, Cookbook Connections - Built with ZAPI</h6>
+    </main>
   </div>
 )
 

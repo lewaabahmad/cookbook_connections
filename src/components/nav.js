@@ -6,10 +6,10 @@ import logo from '../images/cclogo.png'
 import Img from "gatsby-image"
 
 const Nav = ({ siteTitle }) => (
-  <div className='text-center'>
+  <div className='mynav text-center mb-5'>
     <Link
       to="/about"
-      className='py-2 px-5'
+      className='py-2 px-2 mx-2'
       style={{
         textDecoration: `none`,
       }}
@@ -18,7 +18,7 @@ const Nav = ({ siteTitle }) => (
     </Link>
     <Link
       to="/contact"
-      className='py-2 px-5'
+      className='py-2 px-2 mx-2'
       style={{
         textDecoration: `none`,
       }}

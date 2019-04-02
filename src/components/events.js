@@ -30,8 +30,8 @@ class Events extends React.Component {
         // <small>{createdAt}</small>
         // <p className='pt-3'>{event.attributes.data.caption}</p>
     return (
-      <div className='card pb-1 card-gold'>
-        <h4 className='pb-0 mb-0'>{event.attributes.data.title}</h4>
+      <div className='event-card mb-3 p-2'>
+        <p className='pb-0 mb-0'>{event.attributes.data.title}</p>
       </div>
     )
   }
@@ -53,9 +53,9 @@ class Events extends React.Component {
 
       return (
         <div>
-          <h3>Upcoming Events</h3>
+          <h4 className='mb-2'>Upcoming Events</h4>
           {upcomingEvents.map((event) => (this.renderEventCard(event)))}
-          <h3>Past Events</h3>
+          <h4 className='pt-3 mb-2'>Past Events</h4>
           {pastEvents.map((event) => (this.renderEventCard(event)))}
         </div>
       )

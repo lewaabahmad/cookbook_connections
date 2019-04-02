@@ -28,10 +28,11 @@ class Posts extends React.Component {
   renderPostCard(post) {
     let createdAt = new Date(post.attributes.created_at).toDateString()
     return (
-      <div className='card pb-1 card-gold'>
-        <h4 className='pb-0 mb-0'>{post.attributes.data.title}</h4>
+      <div className='pb-1'>
+        <h3 className='pb-0 mb-0'>{post.attributes.data.title}</h3>
         <small>{createdAt}</small>
         <p className='pt-3'>{post.attributes.data.caption}</p>
+        <div className='divider'></div>
       </div>
     )
   }
