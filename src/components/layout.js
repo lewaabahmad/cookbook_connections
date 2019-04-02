@@ -11,6 +11,7 @@ import PropTypes from "prop-types"
 
 import Header from "./header"
 import Nav from "./nav"
+import 'bootstrap/dist/css/bootstrap.css';
 import "./layout.css"
 
 const Layout = ({ children }) => (
