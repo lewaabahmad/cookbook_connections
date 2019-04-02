@@ -1,19 +1,27 @@
-.card {
+main {
   padding: 30px;
-  background: white
-}
-
-.card-gold {
-  border: 3px solid #9A4854;
   background: white;
+  border: 3px solid #9A4854;
 }
 
+/* .card-gold { */
+/*   background: white; */
+/* } */
+
+body {
+  background-image: url("../images/desktop_bg.png") !important;
+  background-repeat-y: repeat;
+  background-repeat-x: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
