@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Posts from "../components/posts"
+import Events from "../components/events"
 
 const IndexPage = () => (
   <Layout>
@@ -13,12 +14,11 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     </div>
     <div className='row'>
-      <div className='col-8'>
+      <div className='col-12 col-md-8'>
         <Posts />
       </div>
-      <div className='col-4'>
-        <h3>Upcoming Events</h3>
-        <h3>Past Events</h3>
+      <div className='col-12 col-md-4'>
+        <Events />
       </div>
     </div>
   </Layout>
