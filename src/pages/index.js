@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1 className='d-none'>Cookbook Connections</h1>
-    <h2>A community that connects over creations of new, inspiring cookbooks and their authors.</h2>
+    <h2 className='d-none'>A community that connects over creations of new, inspiring cookbooks and their authors.</h2>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     </div>
     <div className='row'>
