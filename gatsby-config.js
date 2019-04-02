@@ -4,6 +4,7 @@ module.exports = {
     description: `A community that connects over creations of new, inspiring cookbooks and their authors.`,
     author: `@lewaabahmad`,
   },
+  pathPrefix: "/cookbook_connections",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
