@@ -26,12 +26,11 @@ class Events extends React.Component {
   }
 
   renderEventCard(event) {
-    // let createdAt = new Date(event.attributes.created_at).toDateString()
-        // <small>{createdAt}</small>
-        // <p className='pt-3'>{event.attributes.data.caption}</p>
+    let createdAt = new Date(event.attributes.data.dateAndTime).toDateString()
     return (
       <div className='event-card mb-3 p-2'>
         <p className='pb-0 mb-0'>{event.attributes.data.title}</p>
+        <small className='pt-0 mt-0'>{createdAt}</small>
       </div>
     )
   }

@@ -1,5 +1,6 @@
 main {
   padding: 30px;
+  margin-bottom: 60px;
   background: white;
   border: 3px solid #9A4854;
 }
@@ -24,6 +25,10 @@ body {
   font-family: Helvetica;
 }
 
+.mynav small {
+  font-size: 10px !important;
+}
+
 .event-card {
   background: #f7f7f7;
 }
@@ -36,6 +41,7 @@ body {
 .divider {
   width: 200px;
   margin: 0 auto;
+  margin-bottom: 25px;
   height: 1px;
   background: #ddd
 }
